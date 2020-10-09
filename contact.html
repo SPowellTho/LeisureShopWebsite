@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="contact.css">
+<link rel="icon" type="image/png" href="images/favicon/favicon.ico">
+<title>Leisure Shop</title>
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img src="images/logo.png" alt="Leisure Shop Logo"></a>
+		<nav>
+		<ul>
+		<li><a href="books.html">Books</a></li>
+		<li><a href="news.asp">Card Games</a></li>
+		<li><a href="contact.asp">Board Games</a></li>
+		<li><a href="about.asp">Toys</a></li>
+		</ul>
+		</nav>
+	</header>
+		
+	<main>
+		
+	<h1>Contact Us!</h1>
+	<p>Required information is marked with an asterisk (*).</p>
+	<form action="thanks.html" method="get">
+		
+		<div class="fleft">
+		<label for="myFName">*First Name:</label>
+		<input type="text" id="myFName" name="myFName" placeholder="Your first name" pattern="[a-zA-Z]+" required>
+		</div>
+
+		<div class="fright">
+		<label for="myLName">*Last Name:</label>
+		<input type="text" id="myLName" name="myLName" placeholder="Your first name" pattern="[a-zA-Z]+" required>
+		</div><br>
+
+		<div class="fleft">
+		<label for="myEmail">*E-mail:</label>
+		<input type="email" id="myEmail" name="myEmail" placeholder="youremail@website.com" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}" required>
+		</div>
+		
+		<div class="fright">
+		<label for="myPhone">Phone:</label>
+		<input type="tel" id="myPhone" name="myPhone" placeholder="xxx-xxx-xxxx" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+		</div><br>
+		
+		<nav class="fmiddle">
+		<label for="myComments">*Comments:</label>
+	 	<textarea name="myComments" id="myComments" placeholder="What did you want to tell us?" required rows="2" cols="20"></textarea>
+		</nav>
+		
+		<input type="submit" id="mySumbit" value="Submit">
+	</form> 
+	</main>
+	
+<footer>
+Copyright &copy; 2020 Leisure Shop<br>
+<a href="mailto:Support@LeisureShop.com">Email us! Support@LeisureShop.com</a><br>
+<a href="tel:123-456-7890">Call us! 123-456-7890</a><br>
+<a href="contact.html">Contact Us</a>
+</footer>
+	
+</body>
+</html>

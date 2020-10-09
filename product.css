@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	background-color:#FF4D00;
+}
+
+p{
+	font-family: 'Baloo Chettan 2','Oxygen',cursive;
+	font-size: 15pt;
+}
+
+h1{
+	color:#008CFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	line-height: auto;
+	height: auto;
+}
+
+nav{
+	text-align: center;
+	height: auto;
+	vertical-align: middle;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none; 
+	padding: 20px 0px;
+}
+
+nav li {
+	display: inline;
+	vertical-align: top;
+	font-family: 'Oxygen',sans-serif;
+	font-weight: bold;
+	margin: 20px 25px 20px 25px;
+	font-size: 16pt;
+}
+
+nav a{
+	color:white;
+}
+
+nav a:hover {
+	background-color:#A38BFF;
+}
+
+header img{
+	max-width:80%;
+	min-width:200px;
+	width:25%;
+	height:auto;
+}
+
+header{
+	text-align:center;
+	background-color:#FF4D00;
+	width:100%;
+}
+
+main{
+	color: darkslategray;
+	display: block;
+	width: 80%;
+	margin: auto;
+	vertical-align: top;
+}
+
+#intro{
+	background-color:white;
+	margin-top: 2%;
+	width:100%;
+	padding: .5% 2%;
+	box-sizing: border-box;
+}
+
+#products{
+	vertical-align: top;
+	width:100%;
+	padding: .5% 0%;
+	font-size: 0;
+}
+
+.item{
+	background-color:white;
+	width: 19%;
+	min-width: 208px;
+	margin: 1% 0.67% 1% 0;
+	padding: 0%;
+	vertical-align: top;
+	border: 2px solid #FF4D00;
+	display: inline-block;
+}
+.item h1{
+	color:#008CFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-left: 2%;
+	line-height: auto;
+	text-align: center;
+	font-size: 15pt;
+}
+.item h2{
+	color:#386B94;
+	font-family: 'Roboto', sans-serif;
+	font-weight: thin;
+	padding-left: 2%;
+	text-align: center;
+	line-height: auto;
+	font-size: 15pt;
+}
+.item p{
+	padding: 0 2%;
+	color: darkslategrey;
+	font-family: 'Baloo Chettan 2','Oxygen',cursive;
+	font-size: 12pt;
+}
+.item .pict img{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	
+}
+
+footer{
+	width:auto;
+	height:auto;
+	font-family: 'Baloo Chettan 2','Oxygen',cursive;
+	text-align: center;
+	margin: 3% auto 0 auto;
+	padding: 1% 0 1% 0;
+	background-color:#FF4D00;
+}
+
+a{
+	text-decoration: none;
+}
+
+@media (max-width: 800px) {
+	body{
+		margin-left:auto;
+		margin-right:auto;
+		content-align: center;
+		min-width: 300px;
+	}
+	#intro{
+		margin: 0;
+		padding: 0;
+		width:100%;
+	}
+	nav a{
+		display: block;
+		margin-top: 0%;
+		line-height: 20px;
+	}
+	.products{
+		margin-left:auto;
+		margin-right:auto;
+		align-content: center;
+		width: 100%;
+	}
+	.item{
+		width: 100%;
+	}
+}
