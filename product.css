@@ -2,7 +2,8 @@
 /* CSS Document */
 body{
 	margin: 0;
-	background-color:#FF4D00;
+	background-color:#FF8C5E;
+    height: 100%;
 }
 
 p{
@@ -47,17 +48,17 @@ nav a:hover {
 	background-color:#A38BFF;
 }
 
+header{
+	text-align:center;
+	background-color:#FF4D00;
+	width:100%;
+}
+
 header img{
 	max-width:80%;
 	min-width:200px;
 	width:25%;
 	height:auto;
-}
-
-header{
-	text-align:center;
-	background-color:#FF4D00;
-	width:100%;
 }
 
 main{
@@ -80,18 +81,19 @@ main{
 	vertical-align: top;
 	width:100%;
 	padding: .5% 0%;
-	font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item{
 	background-color:white;
-	width: 19%;
-	min-width: 208px;
-	margin: 1% 0.67% 1% 0;
-	padding: 0%;
+    width: 19%;
+    min-width: 200px;
+    height: 900px;
+	margin: 1% auto 1% 0%;
+	padding: 5px;
 	vertical-align: top;
-	border: 2px solid #FF4D00;
-	display: inline-block;
+
 }
 .item h1{
 	color:#008CFF;
@@ -117,11 +119,16 @@ main{
 	font-family: 'Baloo Chettan 2','Oxygen',cursive;
 	font-size: 12pt;
 }
+.item .pict{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
 .item .pict img{
-	text-align: center;
-	width: 100%;
-	height: auto;
-	
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 footer{
@@ -146,8 +153,8 @@ a{
 		min-width: 300px;
 	}
 	#intro{
-		margin: 0;
-		padding: 0;
+		margin: 1% 0;
+        padding: 10px;
 		width:100%;
 	}
 	nav a{
